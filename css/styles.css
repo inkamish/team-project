@@ -151,3 +151,93 @@ body {
 .hero-btn:hover, .hero-btn:focus {
     background-color: #ffeb38;
 }
+
+.services {
+    padding: 120px 0;
+}
+
+.services-container {
+    display: flex;
+    gap: 89px;
+}
+
+.services-box {
+
+}
+
+.services-subtitle {
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.55;
+letter-spacing: 0.03em;
+text-align: justify;
+color: #f8f8f8;
+margin-bottom: 19px;
+}
+
+.services-subtitle-part {
+    color: #ffeb38;
+}
+
+.services-title {
+font-size: 48px;
+line-height: 1.255;
+letter-spacing: 0.03em;
+color: #f8f8f8;
+max-width: 443px;
+margin-bottom: 23px;
+}
+
+.services-title-part {
+    color: #ffeb38;
+}
+
+.services-text {
+    line-height: 1.55;
+letter-spacing: 0.03em;
+text-align: justify;
+color: #fff;
+width: 534px;
+margin-bottom: 40px;
+}
+
+.services-btn {
+    font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #1e1e1e;
+border-radius: 5px;
+min-width: 181px;
+height: 48px;
+background-color: #ffeb38;
+border: none;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px 20px;
+}
+
+.services-item {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: calc((100% - 1 * 20px) / 2);
+    padding: 54px 15px 22px 15px;
+}
+
+.services-item-title {
+    font-size: 16px;
+letter-spacing: 0.03em;
+color: #000;
+text-align: center;
+margin-bottom: 13px;
+}
+
+.services-item-text {
+    font-size: 11px;
+line-height: 1.55;
+letter-spacing: 0.03em;
+text-align: center;
+color: #696969;
+}

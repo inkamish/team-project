@@ -50,7 +50,9 @@
             <li class="header-item"><a class="header-link" href="">Faqs</a></li>
           </ul>
         </nav>
-        <button class="header-btn" type="button">Contact Us</button>
+        <button data-modal-open class="header-btn" type="button">
+          Contact Us
+        </button>
       </div>
     </header>
     <main>
@@ -283,5 +285,52 @@
         <li><a href="">Cookies Policy</a></li>
       </ul>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="modal-close-btn" type="button">
+          x
+        </button>
+        <p class="modal-subtitle">Contact Us</p>
+        <p class="modal-title">
+          <span class="modal-title-part">Contact</span> Us & We Can Work
+          Together
+        </p>
+        <p class="modal-text">
+          Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
+          enim id gravida pulvinar. Tristique consectetur mi curabitur congue
+          enim dignissim
+        </p>
+        <form action="">
+          <label class="modal-label" for="user-name">
+            <input
+              class="modal-input"
+              type="text"
+              name="user-name"
+              placeholder="Your Name"
+              id="user-name"
+            />
+          </label>
+          <label class="modal-label" for="user-email">
+            <input
+              class="modal-input"
+              type="email"
+              name="user-email"
+              placeholder="Your Email"
+              id="user-email"
+            />
+          </label>
+          <label class="modal-label modal-text-label" for="user-message">
+            <textarea
+              class="modal-textbox"
+              name="user-message"
+              placeholder="Your Message"
+              id="user-message"
+            ></textarea>
+          </label>
+          <button class="modal-btn" type="submit">Submit Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
